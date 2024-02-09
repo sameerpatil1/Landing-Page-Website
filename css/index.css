@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/sun.jpg') no-repeat center center/cover;
+    color: white;       
+     
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+}
+
+.left img {
+    width: 80px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 18px;
+}
+
+.mid {
+    display: block;
+    width: 37%;
+    margin: 12px auto;
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+
+}
+
+.nevbar li {
+
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nevbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+
+
+
+}
+
+.nevbar li a:hover,
+.nevbar li a:active {
+    text-decoration: underline;
+    color: rgb(108, 158, 185);
+}
+
+.right button {
+    margin: 0px 8x;
+    color: white;
+    background-color: rgb(3, 3, 3);
+    padding: 4px 14px;
+    border: 2px solid rgb(233, 233, 228);
+    border-radius: 9px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(119, 119, 101);
+}
+
+.contaner {
+    border: 2px solid white;
+    margin: 178px 46px;
+    padding: 27px 63px;
+    width: 21%;
+    border-radius: 12px;
+}
+
+.textform input {
+    margin: 3px 16px;
+    padding: 2px 2px;
+    display: block;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.textform button {
+    padding: 2px 2px;
+    display: block;
+    margin: auto 21px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    width: 78%;
+</style>
